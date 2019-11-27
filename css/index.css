@@ -134,24 +134,6 @@ section.grey { margin-top: 24px; }
   padding: 5px;
   color: whitesmoke;
 }
-.top {
-  background-color: #f0af0b;
-  border: 0;
-  border-radius: 4px;
-  bottom: 1rem;
-  box-shadow: 1px 1px 2px rgba(0,0,0,.1);
-  cursor: pointer;
-  overflow: hidden;
-  padding: .5rem .5rem 0;
-  position: fixed;
-  right: 1rem;
-  text-decoration: none;
-  transition: transform .3s ease-in-out;
-}
-.top:hover {
-  background-color: yellow;
-}
-
 
 span {
   background-color: darkslategray;
@@ -231,6 +213,10 @@ button {
 button:hover{
   background-color: darkslategray;
 }
+.row1 {
+  display: flex;
+  flex-direction: row;
+}
 
 
 
@@ -294,11 +280,18 @@ button:hover{
   .credits { margin-top: -80px; }
   .img-edu-8 { margin-bottom: 120px; }
 }
+@media only screen and (min-width: 700px) and (max-width:1190px) {
+  .navigation {padding-top: 40px;}
+}
 @media only screen and (min-width: 500px) and (max-width:700px) {
   .center {width: 100%; text-align: center;}
   a.div > p {
     color: darkslategray;
     font-size: 1.2rem;
+  }
+  .navigation {padding-top: 35px;}
+  div.col-3.col-4-sm {
+    width: 40%;
   }
 }
 @media only screen and (max-width: 500px) {
@@ -307,4 +300,18 @@ button:hover{
     color: darkslategray;
     font-size: 1rem;
   }
+  .row1 {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+  }
+  .navigation {padding-top: 35px;}
+  div.col-3.col-4-sm {
+    width: 60%;
+  }
+  .type-black {
+    font-weight: 500;
+  }
+
+  
 }

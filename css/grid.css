@@ -30,7 +30,7 @@ html, body { height: 100%; width: 100%; margin: 0px; padding: 0px; left: 0px; to
 
 .col-3-sm { width: 21%; }
 
-.col-4-sm { width: 20%; }
+.col-4-sm { width: 25%; }
 
 .col-5-sm { width: 37.66%; }
 
@@ -72,7 +72,7 @@ html, body { height: 100%; width: 100%; margin: 0px; padding: 0px; left: 0px; to
 @media only screen and (min-width: 720px) {
   .col-1, .col-1-l { width: 4.33%; }
   .col-2, .col-2-l { width: 12.66%; }
-  .col-3, .col-3-l { width: 21%; }
+  .col-3, .col-3-l { width: 25%; }
   .col-4, .col-4-l { width: 20%; text-align: center; }
   .col-5, .col-5-l { width: 37.66%; }
   .col-6, .col-6-l { width: 46%; }
@@ -98,7 +98,7 @@ html, body { height: 100%; width: 100%; margin: 0px; padding: 0px; left: 0px; to
   .container { width: 90%; max-width: 1600px; }
   .col-1-xl { width: 4.33%; }
   .col-2-xl { width: 12.66%; }
-  .col-3-xl { width: 21%; }
+  .col-3-xl { width: 25%; }
   .col-4-xl { width: 29.33%; text-align: center;}
   .col-5-xl { width: 37.66%; }
   .col-6-xl { width: 46%; }
